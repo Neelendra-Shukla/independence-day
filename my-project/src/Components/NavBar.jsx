@@ -1,7 +1,10 @@
+import AboutFreedom from "./AboutFreedom";
+
+
 const NavBar = () => {
   const link = [
     { name: "Home", href:"#"},
-    { name: "Freedom", href:"#"},
+    { name: "Freedom", href: "#AboutFreedom"},
     { name: "technology", href:"#"},
     { name: "Future", href:"#"},
     { name: "Contact", href:"#"}
