@@ -7,12 +7,12 @@ import rani from '../assets/rani.jpg';
 import subhash from '../assets/mahatmagandhi.jpg';
 const OurIndianIdols = () => {
   return (
-    <center>
-      <div className='mt-30 mb-10'>
+    <center className='idols'>
+      <div className='mt-12 mb-10'>
       <div className='text-6xl mb-15 italic font-bold'>
         <span className='mx-2 text-orange-500'>Our</span>
         <span className='mx-2 text-white-500'>Indian</span>
-        <span className='mx-2 text-green-500'>Idol</span>
+        <span className='mx-2 text-green-500'>Idol's</span>
       </div>
       <div className="flex flex-wrap gap-20 w-250 images">
 
@@ -21,6 +21,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>Mahatma Gandhi <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
       </div>
 
       <div className='imgp wh'>
@@ -28,6 +29,7 @@ const OurIndianIdols = () => {
       <p className='my-3'>Tilak ji <br /> 
         <span>1200-1220</span>
         </p>
+      <a className='btna' href="">click for details</a>
       </div>
 
         <div className='imgp gr'>
@@ -35,6 +37,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>apna bhai <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
 
         <div className='imgp  or'>
@@ -42,6 +45,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>bhai <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
 
         <div className='imgp wh'>
@@ -49,6 +53,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>apna bhai <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
 
         <div className='imgp gr'>
@@ -56,6 +61,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>apna bahan <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
 
         <div className='imgp or'>
@@ -63,6 +69,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>apna bahan <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
 
         <div className='imgp wh'>
@@ -70,6 +77,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>apna bahan <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
 
         <div className='imgp gr'>
@@ -77,6 +85,7 @@ const OurIndianIdols = () => {
         <p className='my-3'>apna bahan <br /> 
         <span>1200-1220</span>
         </p>
+        <a className='btna' href="">click for details</a>
         </div>
     </div>
     </div>

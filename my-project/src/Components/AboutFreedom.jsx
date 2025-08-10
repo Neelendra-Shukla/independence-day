@@ -2,8 +2,8 @@ import video from '../assets/video.mp4';
 
 const AboutFreedom = () => {
     return <>
-    <div>
-        <center className="text-orange-500 text-6xl mt-25 italic font-bold">15 
+    <div id='about' className='about'>
+        <center className="text-orange-500 text-6xl mt-10 italic font-bold">15 
             <span className="text-white">August</span> 
             <span className="text-green-600">1947</span></center>
         <center>
@@ -15,7 +15,7 @@ const AboutFreedom = () => {
             <p className="my-5 text-green-500">Independence Day reminds us of the brave heroes who sacrificed their lives for freedom. It inspires us to stay united and serve our nation.</p>
         </div>
 
-        <video className='h-70 mt-12 mb-8 shadow-3xl rounded-3xl' src={video} controls></video>
+        <video className='h-70 mt-12 mb-13 shadow-3xl rounded-3xl' src={video} controls></video>
         </center>
 
     </div>
