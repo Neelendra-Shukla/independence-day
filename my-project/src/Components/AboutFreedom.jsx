@@ -15,7 +15,7 @@ const AboutFreedom = () => {
             <p className="my-5 text-green-500">Independence Day reminds us of the brave heroes who sacrificed their lives for freedom. It inspires us to stay united and serve our nation.</p>
         </div>
 
-        <video className='h-70 mt-15 mb-5' src={video} controls></video>
+        <video className='h-70 mt-12 mb-8 shadow-3xl rounded-3xl' src={video} controls></video>
         </center>
 
     </div>

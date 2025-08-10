@@ -1,26 +1,32 @@
-import AboutFreedom from "./AboutFreedom";
 
 
 const NavBar = () => {
-  const link = [
-    { name: "Home", href:"#"},
-    { name: "Freedom", href: "#AboutFreedom"},
-    { name: "technology", href:"#"},
-    { name: "Future", href:"#"},
-    { name: "Contact", href:"#"}
-  ]
+
 
   return (
     <>
       <div className="flex mt-5 justify-around items-center static">
         <h1 className="font-bold text-5xl capitalize ">India</h1>
         <div>
-          <ul className="flex gap-12">
-            {link.map((link) => (
+          <ul className="flex gap-10">
               <li className="hover:scale-140 text-md">
-                <a href={link.href}>{link.name}</a>
+                <a href="home">Home</a>
               </li>
-            ))}
+              <li className="hover:scale-140 text-md">
+                <a href="home">Freedom</a>
+              </li>
+              <li className="hover:scale-140 text-md">
+                <a href="home">Present</a>
+              </li>
+              <li className="hover:scale-140 text-md">
+                <a href="home">Technology</a>
+              </li>
+              <li className="hover:scale-140 text-md">
+                <a href="home">Future</a>
+              </li>
+              <li className="hover:scale-140 text-md">
+                <a href="home">Contact</a>
+              </li>
           </ul>
         </div>
       </div>

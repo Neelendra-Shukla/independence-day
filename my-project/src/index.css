@@ -3,3 +3,31 @@
 body {
   @apply bg-black text-white;
 }
+
+.images img {
+  border-radius: 40px;
+}
+
+.imgp {
+  border-radius: 20px;
+  padding: 15px 20px;
+  transition: transform 0.5s ease;
+}
+
+.imgp:hover {
+  transform: scale(1.05);
+}
+
+.or{
+    border: 4px solid orange;
+}
+
+.wh {
+  border: 4px solid white;
+}
+
+.gr {
+  border: 4px solid green;
+}
+
+
