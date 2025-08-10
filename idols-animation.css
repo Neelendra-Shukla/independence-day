@@ -1,0 +1,89 @@
+@keyframes slide-up {
+  0% {
+    opacity:0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+.slide-up-animation {
+  animation-name: slide-up;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+
+@keyframes left-in {
+  0% {
+    opacity:0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes right-in {
+  0% {
+    opacity:0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes still {
+  0%{
+    opacity: 0;
+    color:white;
+  }
+  40%{
+    opacity:0.5;
+    color: white;
+  }
+  50%{
+    color: rgb(3, 3, 175);
+    opacity:0.7;
+  }
+  70%{
+    color:white;
+  }
+  100%{
+    color:white;
+    opacity: 1;
+  }
+}
+
+.left-in-animation {/*for Our*/
+  animation-name: left-in;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  display: inline-block;
+}
+
+.right-in-animation {/*for Idols*/
+  animation-name: right-in;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  display: inline-block;
+}
+
+.still-animation {/*for Indian*/
+  animation-name: still;
+  animation-duration: 2.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
