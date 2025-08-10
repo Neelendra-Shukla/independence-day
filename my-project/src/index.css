@@ -30,4 +30,7 @@ body {
   border: 4px solid green;
 }
 
+.head {
+  border-bottom: 2px solid rgb(235, 126, 17);
+}
 
