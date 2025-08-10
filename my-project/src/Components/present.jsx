@@ -1,16 +1,19 @@
+import image from '../assets/indiancity.jpg';
 
-
-const present = () => {
+const Present = () => {
   return (
-    <div id='head' className='head'>
-        <div className='flex flex-row justify-center items-center m-21 max-w-10xl gap-50  '>
-            <div>
-                <h1 className='text-5xl mb-4 font-bold text-orange-500'>Digital Freedom Gallery </h1>
-                <p className='text-3xl mb-19 font-light text-white'> Code a Vision. Design the Nation</p>
-                <p className='text-2xl mb-19 font-light text-green-600'>A web tribute to India's past, <br />    present, and digital future</p>
+    <div id='head' className=''>
+
+    <center>
+      <h1 className='text-5xl my-8 font-bold items-center'>About Our Coutry</h1>
+    </center>
+
+        <div className='flex flex-row justify-center items-center m-21 max-w-10xl gap-50 '>
+            <div>  
+                <p className='text-4xl mb-19 text-green-600'>India is a land of diverse cultures,<br /> rich history, and vibrant traditions,<br /> often celebrated for its unity in diversity.</p>
             </div>
             <div>
-                <img className='size-120 rounded-xl'
+                <img className='size-80 rounded-xl imag'
                 src={image} alt="" />
             </div>
         </div>
@@ -18,4 +21,4 @@ const present = () => {
   )
 }
 
-export default present
+export default Present;
