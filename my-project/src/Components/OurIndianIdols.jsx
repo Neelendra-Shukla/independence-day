@@ -32,7 +32,7 @@ const OurIndianIdols = () => {
 
         <div className='imgp gr'>
         <img className='h-70' src={ mahatmagandhi } alt="" />
-        <p className='my-3 wh'>apna bhai <br /> 
+        <p className='my-3'>apna bhai <br /> 
         <span>1200-1220</span>
         </p>
         </div>
