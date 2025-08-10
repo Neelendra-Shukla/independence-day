@@ -1,12 +1,9 @@
-import image from '../assets/indianfleag2.png';
-import NavBar from './NavBar';
 
 
-const Header = () => {
-    return <>
+const present = () => {
+  return (
     <div id='head' className='head'>
-        <NavBar />
-        <div className='flex flex-row justify-center items-center m-21 max-w-10xl gap-45  '>
+        <div className='flex flex-row justify-center items-center m-21 max-w-10xl gap-50  '>
             <div>
                 <h1 className='text-5xl mb-4 font-bold text-orange-500'>Digital Freedom Gallery </h1>
                 <p className='text-3xl mb-19 font-light text-white'> Code a Vision. Design the Nation</p>
@@ -18,7 +15,7 @@ const Header = () => {
             </div>
         </div>
     </div>
-    </> ;
+  )
 }
 
-export default Header;
+export default present
